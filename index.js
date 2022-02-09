@@ -31,6 +31,11 @@
 //         $("h1").html(event.key);
 // })
 
-$("h1").on("mouseover",()=>{
-    $("h1").css("color","gray");
+// $("h1").on("mouseover",()=>{
+//     $("h1").css("color","gray");
+// })
+
+
+$("button").on("click",()=>{
+    $("h1").slideUp().slideDown().animate({opacity : 0.5});
 })
