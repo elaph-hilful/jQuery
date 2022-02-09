@@ -9,5 +9,8 @@
 // // $("h1").removeClass("big-title");
 // console.log($("h1").hasClass("margin-50"));
 
-$("h1").text("Its time to say GoodBye!!"); 
-$("button").html("<em>Hey</em>")
+// $("h1").text("Its time to say GoodBye!!"); 
+// $("button").html("<em>Hey </em>") //innerhtml type
+
+// $("img").attr("src");
+$("a").attr("href", "https://www.yahoo.com")  //setting attribute
