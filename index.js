@@ -13,4 +13,24 @@
 // $("button").html("<em>Hey </em>") //innerhtml type
 
 // $("img").attr("src");
-$("a").attr("href", "https://www.yahoo.com")  //setting attribute
+// $("a").attr("href", "https://www.yahoo.com")  //setting attribute
+// $("h1").click(()=>{
+//     $("h1").css("color","blue");
+//     setTimeout( ()=>{
+//         $("h1").css("color","black");
+//     }, 300);
+// })
+
+
+// $("button").click(()=>{
+//     $("h1").css("color", "purple");
+// })
+
+
+// $(document).keypress((event)=>{
+//         $("h1").html(event.key);
+// })
+
+$("h1").on("mouseover",()=>{
+    $("h1").css("color","gray");
+})
